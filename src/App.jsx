@@ -13,6 +13,7 @@ import {
   FaInstagram, 
   FaTiktok 
 } from 'react-icons/fa6';
+import BackgroundWaves from './components/BackgroundWaves';
 
 const links = [
   /* {
@@ -56,12 +57,8 @@ const socialLinks = [
 function App() {
   return (
     <div className="relative min-h-screen flex flex-col items-center justify-start px-6 py-12 overflow-hidden">
-      {/* Premium Background with Waves */}
-      <div className="bg-container">
-        <div className="wave" />
-        <div className="wave" />
-        <div className="wave" />
-      </div>
+      {/* Premium Background with 3D Waves */}
+      <BackgroundWaves />
 
       {/* Header / Logo Section */}
       <motion.header 
