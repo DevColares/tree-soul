@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: loja-soul-authentic
+    env: static
+    buildCommand: npm run build
+    staticPublishPath: dist
